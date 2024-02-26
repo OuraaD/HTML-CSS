@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML-tableaux</title>
+    <style>
+      td {
+        border: 1px solid green;
+        padding: 15px 50px;
+      }
+      th {
+        border: 1px solid green;
+        padding: 15px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Les tableaux</h1>
+<!-- Un tableau se compose de la balise table -->
+<!--Pour chaque ligne on ajoute la balise tr -->
+<!--Pour chaque cellule on ajoute la balise td -->
+<!-- Les balises td peuvent être remplacé par th pour les cases titres -->
+    <div>
+      <table>
+        <caption>
+          Mon Tableau
+        </caption>
+        <!-- Pour lier un titre à un tableau, j'utilise la balise caption -->
+        <thead>
+          <tr>
+            <th>HT</th>
+            <th>TVA</th>
+            <th>TTC</th>
+          </tr>
+        </thead>
+        <tr>
+          <td>116$</td>
+          <td>20%</td>
+          <td>139$</td>
+        </tr>
+        <tr>
+          <td>330$</td>
+          <td>10%</td>
+          <td>363$</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
